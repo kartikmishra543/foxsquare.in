@@ -1,7 +1,7 @@
 const bankNav=document.createElement('button');bankNav.dataset.nav='bank';bankNav.dataset.icon='network';bankNav.textContent='Bank connectivity';document.querySelector('aside .nav').append(bankNav);
 document.querySelector('.org').innerHTML='<span class="avatar">FS</span><div>Foxsquare<div class="small">Payments operations</div></div>';
 document.querySelector('.secure').innerHTML='<strong>Workspace controls</strong><div class="small">Masked payment details.<br>Manage access and connectivity.</div>';
-document.querySelector('.gateway-title').textContent='Foxsquare / Payments Gateway';
+document.querySelector('.gateway-title').textContent='Foxsquare / Payout';
 document.querySelector('.topright').append(document.querySelector('.bot-toggle'));
 document.querySelector('.topright .avatar').remove();
 document.querySelector('.topright').insertAdjacentHTML('afterbegin','<button class="btn secondary" onclick="openAccount(\'signin\')">Sign in</button><button class="btn" onclick="openAccount(\'signup\')">Sign up</button>');
